@@ -10,12 +10,18 @@ def sort_array_desc(arr)
   end
 end
 
+<<<<<<< HEAD
 def sort_array_char_count(arr)
   arr.sort do |a, b|
+=======
+def sort_array_char_count(array)
+  array.sort do |a, b|
+>>>>>>> 21fa81052064b438a501b70428b43ca15f9855a1
     a.length <=> b.length
   end
 end
 
+<<<<<<< HEAD
 def swap_elements(arr)
   arr[1], arr[2] = arr[2], arr[1]
   arr
@@ -53,4 +59,10 @@ def add_s(array)
 end
 
 
+=======
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
+end
+>>>>>>> 21fa81052064b438a501b70428b43ca15f9855a1
 
